@@ -132,9 +132,7 @@ input[type="submit"]:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-
 .footer-contact {
     display: flex;
     align-items: center;
@@ -191,4 +189,52 @@ input[type="submit"]:hover {
     .footer-links {
         align-items: center;
     }
+}
+
+.para{
+    padding: 20px;
+}
+
+.features{
+    padding: 20px;
+}
+
+.feature-card{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.fcard{
+    padding: 5px;
+    background-color: var(--primary-color);
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #9FEF00;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+.fcard:hover{
+    transform: translateY(-5px);
+    box-shadow: 7px 7px 7px #9FEF00;
+
+}
+.side-heading{
+    color: var(--secondary-color);
+    padding: 10px;
+}
+.sub{
+    padding: 10px;
+}
+
+.technologies{
+    padding: 20px;
+
+}
+.tech-images-box{
+    background-color: var(--primary-color);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
