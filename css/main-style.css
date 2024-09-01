@@ -238,3 +238,37 @@ input[type="submit"]:hover {
     display: flex;
     justify-content: space-between;
 }
+
+.scan-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+#url-box{
+    width: 400px;
+}
+
+#scan-button{
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#scan-button:hover{
+    transform: translateY(-5px);
+    box-shadow: 7px 7px 2px ;
+
+}
+
+.scanner-cards{
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--primary-color);
+
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Scanner</title>
     <link rel="stylesheet" href="/css/main-style.css">
 </head>
 <body>
@@ -15,28 +15,34 @@
         </div>
         <ul class="navbar-menu">
             <li><a href="/index.html">Home</a></li>
-            <li><a href="/html/scanner.html">Scanner</a></li>
+            <li><a href="/html/scanner.html" class="active">Scanner</a></li>
             <li><a href="/html/about.html">About</a></li>
-            <li><a href="/html/login.html" class="active">Login</a></li>
+            <li><a href="/html/login.html" >Login</a></li>
         </ul>
     </nav>
-    <div class="card">
-        <p class="title">Login</p>
-        <form action="#">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
 
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" required>
-
-            <input type="submit" value="Login">
-
-            <div class="links">
-                <a href="#">Forgot Password?</a>
-                <a href="/html/sign-up.html">Sign Up</a>
-            </div>
-        </form>
+    <div class="search-container">
+        <h1 class="heading" style="text-align: center;">Target Url</h1>
+        <div class="scan-box">
+            <input id="url-box" type="text" rows="10">
+            <button id="scan-button">scan</button>
+        </div>
     </div>
+
+    <div class="scanner-cards">
+        <h1 class="heading">
+            Percentage
+            
+        </h1>
+
+    </div>
+    <div class="scanner-cards">
+        <h1 class="heading">
+            Results
+        </h1>
+        
+    </div>
+
     <footer class="footer">
         <div class="footer-contact">
             <p>Contact Me:</p>
@@ -57,7 +63,7 @@
             <a href="/html/about.html">About</a><br>
             
         </div>
-
     </footer>
+    
 </body>
 </html>
